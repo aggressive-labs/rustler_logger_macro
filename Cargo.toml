@@ -1,0 +1,21 @@
+[package]
+name = "rustler_logger_macro"
+version = "0.4.2"
+edition = "2024"
+description = "proc_macros to support rustler_logger"
+documentation = "https://docs.rs/rustler_logger_macro"
+readme = "README.md"
+homepage = "https://github.com/jvantuyl/rustler_logger_macro"
+repository = "https://github.com/jvantuyl/rustler_logger_macro"
+license = "MIT OR Apache-2.0"
+keywords = ["logging", "rustler", "elixir"]
+categories = ["development-tools::debugging"]
+
+[lib]
+proc-macro=true
+
+[dependencies]
+proc_macro_tools = "0.1.17"
+quote = "1.0.40"
+rustler = { version = "0.37.1", features = ["derive"] }
+syn = { version = "2.0.106", features = ["full"] }

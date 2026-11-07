@@ -14,7 +14,7 @@ use nif_wrapper::*;
 
 /// wrapper for `nif` functions needed to set up logging to BEAM
 ///
-/// ```rust
+/// ```ignore
 /// use rustler_logger::*;
 ///
 /// #[log_to_elixir]

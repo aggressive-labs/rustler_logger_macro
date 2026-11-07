@@ -1,4 +1,4 @@
-//! Macros to support [`rustler_logger`](https://github.com/jvantuyl/rustler_logger).
+//! Macros to support [`rustler_logger`](https://github.com/aggressive-labs/rustler_logger).
 use proc_macro::TokenStream;
 use proc_macro_tools::syn::ExprPath;
 use proc_macro_tools::{parse_macro_input, parse_quote};
